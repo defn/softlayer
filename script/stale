@@ -4,7 +4,7 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  if [[ -x "$(type -P TODO)" ]]; then
+  if [[ -x "$(type -P slcli)" ]]; then
     return 1
   fi
 

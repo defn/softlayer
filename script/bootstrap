@@ -6,7 +6,7 @@ function bootstrap {
 
   block compile virtualenv
 
-  ln -ngs "$shome/vendor/virtualenv/bin/slcli" "$shome/bin/"
+  ln -nfs "$shome/vendor/virtualenv/bin/slcli" "$shome/bin/"
 }
 
 bootstrap
